@@ -88,6 +88,12 @@ header {
 .logo {
     gap: 10px;
 }
+.underline {
+    height: 2.5px;
+    width: 40px;
+    margin: auto;
+    background: #fff;
+}
 
 /* SEARCHBAR */
 #searchbox {
