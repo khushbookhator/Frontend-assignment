@@ -115,22 +115,47 @@ header {
     font-size: 24px;
     height: 60px;
     font-style: bold;
-
 }
 
+/* CARDHOLDERS */
+.cardWrapper{
+    margin-top: 50px;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 545px 545px;
+    grid-template-rows: 200px 200px 200px;
+}
+.card {
+    background: #fff;
+    border-radius: 15px;
+    padding: 5%;
+}
+.imagebox {
+    background: #C4C4C4;
+    height: 150px;
+    width: 150px;
+    border-radius: 16px;
+}
+.detailbox {
+    width: 320px;
+}
+.detailbox > h2 {
+    font-size: 24px;
+    font-style: bold;
+    color: #000;
+}
+.detailbox > p {
+    font-size: 14px;
+    color: gray;
+}
+.cardbtn{
+    color: #F07987;
+    border: 1px solid #F07987;
+    border-radius: 7px;
+    background: transparent;
+    height: 40px;
+    width: 120px;
+    margin-left: 180px;
+    margin-top: 10px;
+}
 
-/* @media only screen and (max-width: 996px){
-    .right h1{
-        font-size: 2rem;
-    }
-    .right p {
-        font-size: 1.5rem;
-    }
-    a.btn {
-        padding: 0.7rem 1.8rem;
-    }
-    .left img{
-        height: 40rem;
-        max-width: 25rem;
-    }
-} */
